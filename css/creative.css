@@ -88,7 +88,7 @@ aside {
   padding: 0;
 }
 .navbar-default {
-  background-color: white;
+  background-color: rgba(0, 0, 0, 0);
   border-color: rgba(34, 34, 34, 0.05);
   font-family: 'Work Sans', sans-serif;
   font-weight: 300;
@@ -106,9 +106,10 @@ aside {
   color: #eb3812;
 }
 .navbar-default .navbar-header .navbar-toggle {
-  font-weight: 700;
-  font-size: 12px;
-  color: #222222;
+  font-weight: 500;
+  border: 0;
+  font-size: 15px;
+  color: #ffffff;
   text-transform: uppercase;
 }
 .navbar-default .nav > li > a,
@@ -133,8 +134,9 @@ aside {
 }
 
 .container-fluid .navbar-collapse {
-  margin-right: 30px;
-  margin-left: 30px;
+  margin-right: 10px;
+  text-align: right;
+  background-color: white;
 }
 
 .icon-print {
@@ -235,7 +237,9 @@ aside {
   .navbar-default.affix .nav > li > a:focus:hover {
     color: #2fdbfa;
   }
-
+  .container-fluid .navbar-collapse {
+    background-color: transparent;
+  }
 }
 header {
   position: relative;
@@ -520,5 +524,4 @@ body {
     width: 16.666%;
   }
 }
-
 
