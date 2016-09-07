@@ -515,3 +515,10 @@ img::-moz-selection {
 body {
   webkit-tap-highlight-color: #222222;
 }
+@media (min-width: 1800px) {
+    #portfolio .col-lg-3 {
+    width: 16.666%;
+  }
+}
+
+
