@@ -36,6 +36,33 @@ background-color: yellow;
   display: none !important; 
 }
 
+.navbar-collapse {
+  padding-bottom: 10px;
+}
+
+.nav li {
+  text-align: center;3
+}
+
+.nav li a{
+  position: relative;
+  display: inline-block;
+  text-align: inherit;
+  width: 60%;
+  padding: 5px 15px;
+  margin-top: 10px;
+  border: 1px #999 solid;
+  background-color: #ffffff;
+}
+
+.navbar-default .navbar-toggle:focus {
+  background-color: rgba(0,0,0,0);
+}
+
+.navbar-default .navbar-toggle:hover {
+  background-color: rgba(0,0,0,0);
+}
+
 a {
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
@@ -88,7 +115,7 @@ aside {
   padding: 0;
 }
 .navbar-default {
-  background-color: rgba(0, 0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.8);
   border-color: rgba(34, 34, 34, 0.05);
   font-family: 'Work Sans', sans-serif;
   font-weight: 300;
@@ -120,7 +147,7 @@ aside {
 }
 .navbar-default .nav > li > a:hover,
 .navbar-default .nav > li > a:focus:hover {
-  color: #F05F40;
+  color: #2fdbfa;
 }
 .navbar-default .nav > li.active > a,
 .navbar-default .nav > li.active > a:focus {
@@ -134,8 +161,8 @@ aside {
 }
 
 .container-fluid .navbar-collapse {
-  margin-right: 10px;
   text-align: right;
+  padding-right: 25px;
   background-color: white;
 }
 
@@ -169,6 +196,10 @@ aside {
 
 .fa-phone:before {
   color: white;
+}
+
+.navbar-default .navbar-toggle:hover {
+  background-color: rgba(0,0,0,0);
 }
 
 .fa-envelope-o:before {
