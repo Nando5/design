@@ -51,8 +51,6 @@ background-color: yellow;
   width: 60%;
   padding: 5px 15px;
   margin-top: 10px;
-  border: 1px #999 solid;
-  background-color: #ffffff;
 }
 
 .navbar-default .navbar-toggle:focus {
@@ -352,6 +350,14 @@ header .header-content .header-content-inner p {
   max-width: 400px;
   margin: 50px auto 0;
 }
+
+@media (max-width: 768px) {
+  .nav li a {
+    border: 1px #999 solid;
+    background-color: #ffffff;
+  }
+}
+
 
 @media (min-width: 992px) {
   .service-box {
