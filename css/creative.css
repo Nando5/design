@@ -208,6 +208,15 @@ aside {
   background-color: rgba(26,26,26,0.8);
 }
 
+#html5box-html5-lightbox #html5-text {
+  font-size: 16px !important;
+  color: #d2d2d2 !important;
+}
+
+#html5-playpause {
+  display: none !important;
+}
+
 #section-portfolio {
   padding-top: 40px;
 }
@@ -283,6 +292,7 @@ aside {
   .container-fluid .navbar-collapse {
     background-color: transparent;
   }
+
 }
 header {
   position: relative;
@@ -369,6 +379,27 @@ header .header-content .header-content-inner p {
   .nav li a {
     border: 1px #999 solid;
     background-color: #ffffff;
+  }
+  #html5box-html5-lightbox #html5-text {
+    font-size: 14px !important;
+  }
+}
+
+@media (max-width: 630px) {
+  #html5box-html5-lightbox #html5-text {
+    font-size: 12px !important;
+  }
+}
+
+@media (max-width: 530px) {
+  #html5box-html5-lightbox #html5-text {
+    font-size: 10px !important;
+  }
+}
+
+@media (max-width: 500px) {
+  #html5box-html5-lightbox #html5-text {
+    font-size: 8px !important;
   }
 }
 
