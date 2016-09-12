@@ -65,7 +65,7 @@ a {
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
-  color: #ed2271;
+  color: #2fdbfa;
 }
 a:hover,
 a:focus {
@@ -224,6 +224,20 @@ aside {
 
 #contact {
   background-color: #1a1a1a;
+}
+
+.description {
+  color: #000000;
+}
+
+.description b {
+  color: #2fdbfa;
+}
+
+#copyright {
+  color: #808080;
+  margin-top: 120px;
+  margin-bottom: 40px;
 }
 
 @media (min-width: 768px) {
