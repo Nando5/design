@@ -10,5 +10,5 @@ $("#show").click(function(){
 
 $("#xxx").click(function(){
 	console.log('xxx is working');
-	$.getScript("html5lightbox.js");
+	$.getScript("html5lightbox/html5lightbox.js");
 });
