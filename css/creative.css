@@ -227,6 +227,10 @@ aside {
   background-color: #f2f2f2;
 }
 
+#services .text-center {
+  padding: 0 30px;
+ }
+
 #contact p, #contact h2 {
   color: white;
 }
