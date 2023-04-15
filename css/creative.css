@@ -164,6 +164,27 @@ aside {
   background-color: white;
 }
 
+.icon-design {
+  width: 66px;
+  height: 70px;
+  background-image: url('../img/svg/icon-design.svg');
+  margin: 0 auto;
+}
+
+.icon-code {
+  width: 78px;
+  height: 70px;
+  background-image: url('../img/svg/icon-code.svg');
+  margin: 0 auto;
+}
+
+.icon-animation {
+  width: 70px;
+  height: 70px;
+  background-image: url('../img/svg/icon-animation.svg');
+  margin: 0 auto;
+}
+
 .icon-print {
   width: 100px;
   height: 100px;
